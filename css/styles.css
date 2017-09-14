@@ -1,0 +1,81 @@
+body {
+  font: 15px/1.5 'lora', Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+/* Global */
+.container {
+
+  margin:0;
+  padding:0;
+  overflow: hidden;
+}
+ul {
+  padding:0;
+  margin:0;
+  color:#fff;
+}
+
+ul a, ul a:hover, ul a:after {
+  color: #fff;
+}
+
+a:hover {
+  text-shadow: 0 0 3px #fff;
+}
+li {
+  display: inline;
+  padding: 0 5px 0 5px;
+}
+/* Main Column */
+#main-col {
+  width: 65%;
+  float: right;
+  text-align: center;
+  background: #fff;
+  height: 100vh;
+}
+#main-col .text p{
+  padding: 0 140px 0 140px;
+  text-align: justify;
+  font-size: 20px;
+  margin-top:0;
+}
+#main-col .text h2 {
+  margin-top: 90px;
+  font-size: 40px;
+  margin-bottom: 0;
+  font-weight: normal;
+  color: #292b2c;
+
+
+}
+/* Sidemenu */
+#sidemenu{
+  width: 35%;
+  float:left;
+  text-align: center;
+  height: 100vh;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://images.pexels.com/photos/416704/pexels-photo-416704.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
+}
+#sidemenu .page-title {
+  margin-top: 40vh;
+  color: white;
+
+}
+
+#sidemenu h1 {
+  margin-bottom: 0;
+  font-style: italic;
+  font-size: 36px;
+}
+#sidemenu h4 {
+  margin-top: 0;
+}
+
+footer {
+  color: #fff;
+  margin-top: 45vh;
+}
+@
